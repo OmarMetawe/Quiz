@@ -1,0 +1,16 @@
+
+read -p "Enter a number: "p"
+fifor((m=1; m<=p; m++))
+do
+    # This loop print spaces
+    for((a=m; a<=p; a++))
+    do
+      echo -ne " ";
+    done
+    #this loop is to print the diamond 
+    for((n=1; n<=p; n++))
+    do
+      echo -ne "*";
+    done
+ 
+done
